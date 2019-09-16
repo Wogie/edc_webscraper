@@ -1,6 +1,11 @@
 import edc_functions as edc
+import sys
 
-postnumre = "1000-3000"
+try:
+    postnumre = sys.argv[1]
+except IndexError:
+    postnumre = "1000-3000"
+
 postnumre = postnumre.split("-")
 mins = list(range(int(postnumre[0]), int(postnumre[1]), 100))
 
