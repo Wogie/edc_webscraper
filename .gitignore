@@ -1,0 +1,10 @@
+boligliste.csv
+.idea/
+
+__pycache__/
+all_zips.txt
+
+plotting_edc.py
+postnummer_groups.txt
+postnumre.py
+postnumre_dk.txt
